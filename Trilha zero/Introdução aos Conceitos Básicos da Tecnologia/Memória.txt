@@ -1,0 +1,39 @@
+* Memória de computador
+
+    É um circuito "eletrônico" ou um "meio magnético"
+    com capacidade de armazenamento de dados. Dados de 
+    entrada, sistemas operacionais, arquivos, softwares
+    de aplicação, instruções gerais para bom funcionamento 
+    do PC, dependem dele.
+
+    Memória interna:
+
+        Está diretamente ligada aos componentes da CPU, 
+        como exemplo a memória principal (RAM), a memória
+        de leitura (ROM) e a memória cache.
+
+        Memória principal (RAM) - memória de rápido acesso,
+        que armazena os dados/informações (programas, dados 
+        de entrada e saída, dados do sistema operacional etc.),
+        permite ser gravada, desgravada e lida. É volátil, ou 
+        seja, quando desligar o PC, os dados armazenados nela 
+        serão excluídos.
+
+        Memória de leitura (ROM) - já vem instalada de fábrica na
+        placa-mãe e traz gravadas em seus circuitos as informações
+        básicas para o funcionamento da máquina, ativando os 
+        dispositivos nescessários para a inicialização das tarefas.
+
+        Memória Cache - está localizada na placa-mãe e é formada 
+        por vários circuitos integrados RAM do tipo "SRAM" (Static 
+        RAM) e é muito mais rápida que a do tipo "RAM" Convencional,
+        pois não usa o método capacitativo de armazenamento e sim 
+        dispositivos de dois estados como os Flips-Flops (circuito
+        eletrônico que pode assumir um de dois estados, determinados
+        por uma ou duas entradas). Dá suporte ao processador.
+
+    Memória externa:
+
+        Meios magnéticos externos à CPU, como fitas, disquetes, discos
+        zip, CD-Rom's etc, para armazenar dados aos quais não são 
+        possíveis na memória principal, pela mesma ser volátil. 
