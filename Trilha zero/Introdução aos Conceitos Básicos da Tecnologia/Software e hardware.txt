@@ -20,3 +20,22 @@
     Drivers: software que realiza a comunicação entre o 
     sistema operacional e um determinado hardware, exemplo 
     driver de impressora.
+
+    --------------------------------------------------
+
+    Programas que não estão em uso, ficam armazenados 
+    na memória auxiliar do computador (HD, SSD). Quando
+    está sendo utilizado, é enviado para memoria principal
+    dá máquina (RAM), onde as intruções são executadas uma
+    após uma com o apoio do processador.
+
+
+* Hardware
+
+    São os itens físicos do dispositivo. Alguns exemplos:
+
+    Monitor, mouse, teclado, memória, placa mãe, drive de 
+    DVD/CD entre outros.
+
+    Hardware é o corpo, enquanto o Software é a mente da 
+    máquina.
