@@ -1,0 +1,22 @@
+* Software
+
+    Recebem todas as intruções de um usuário para que 
+    determinada tarefa seja executada. Computador usa
+    linguagens de programação para esse entendimento.
+
+    Exemplos 
+    
+    Software de sistema: programas que permitem a 
+    interação do usuário com a máquina, como sistemas 
+    operacionais (Windows, IOS, Android, Linux).
+
+    Software de aplicativo: programas de uso diário do
+    usuário, como editores de texto, navegadores, redes
+    socias etc.
+
+    Software utilitário: programa que mantém o bom 
+    funcionamento do computador, como AntiVirus e outros.
+
+    Drivers: software que realiza a comunicação entre o 
+    sistema operacional e um determinado hardware, exemplo 
+    driver de impressora.
