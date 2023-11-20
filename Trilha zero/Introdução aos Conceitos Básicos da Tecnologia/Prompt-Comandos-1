@@ -1,0 +1,76 @@
+O que é o Prompt de Comando?
+
+    Basicamente o prompt de comando é o "cara", que interpreta
+    o código de comando, para executar a instrução que foi dada 
+    através desse código.
+
+    Em sistemas operacionais Windows, o prompt de comando é um 
+    programa que emula o campo de entrada em uma tela de interface
+    do usuário baseada em texto com a interface gráfica do usuário
+    (GUI) do Windows. Ele pode ser usado para executar comandos 
+    inseridos e realizar funções administrativas avançadas.
+
+Alguns comandos:
+
+    color 123456 - mostra todas as cores de texto disponível
+    color - sem parâmetros, retorna ao estilo padrão
+    color 1 - selecione o texto do prompt em cor azul
+    color fc - dois parâmrtros, 'f' é branco e irá ser o fundo
+    'c' é vermelho e será a cor da fonte
+
+    cls - limpa a tela do prompt de comando
+
+    cd - serve para acessar o diretório que você passar à frente; 
+        C:\Users\leo
+        cd desktop 
+        C:\Users\leo\Desktop
+
+    cd .. - desce um nível (volta uma pasta)
+        C:\Users\leo\Desktop
+        cd ..
+        C:\Users\leo
+
+        Para descer mais:
+
+        cd ..\..
+
+        C:\
+
+    dir - serve para ver quais pastas existem dentro do diretório
+
+    mkdir ou md - cria uma nova pasta no diretório
+        mkdir novaPasta
+        md novaPasta2
+
+    rd - apaga pasta passada que está no diretório atual
+        rd novaPasta
+
+    echo - nos retorna um texto no prompt
+        echo Olá Mundo!
+
+    echo.> - cria um arquivo no diretório atual
+        echo.> arquivoTexte.txt
+
+    echo >> - cria um arquivo, e no segundo parametro podemos
+    passar conteúdo que terá dentro do arquivo
+        echo >> arquivoDeTexto.txt Esse texto irá aparecer dentro
+        do arquivoDeTexto
+
+    start - abre um arquivo
+        start arquivoDeTexto.txt
+
+    del - exclui arquivo passado no diretório atual
+        del arquivoTeste.txt
+
+    copy - copia um arquivo
+        copy arquivoQueSeraCopiado.txt NomeDoNovoArquivo.txt
+
+    copy con - pode mudar o conteúdo dentro do arquivo
+        copy con arquivo.txt (enter)
+
+        Aqui em baixo, será o novo texto do conteúdo do arquivo.txt (enter)
+
+        Substituir arquivo.txt? (Sim/Não/Todos): s  (enter)
+
+        Aqui você poderá continuar escrevendo o novo conteúdo do arquivo.txt
+        e para sair, aperte ctrl + z
