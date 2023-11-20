@@ -1,0 +1,16 @@
+IP - Internet Protocol
+TCP - Transmission Control Protocol
+
+Na internet, temos o protocolo TCP, ou seja, 
+Protocolo de Controle de Transferência. Se 
+queremos controlar uma transferência de dados, 
+temos que saber DE ONDE e PARA ONDE esses dados 
+vão.
+
+O IP é o que permite reconhecer o usuário que 
+emite ou recebe uma determinada informação na 
+internet. 
+
+Quando juntamos os dois temos o TCP/IP que 
+determina como um computador deve se conectar à 
+Internet e transmitir dados. 

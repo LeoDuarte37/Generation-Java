@@ -1,0 +1,18 @@
+Para garantir essas regrinhas da internet,
+os protocolos foram criadas com algumas funções,
+ou "camadas".
+
+Modelo de camadas
+
+OSI - 1984                      DARPA (TCP/IP) - Anos 70
+
+Aplicaçâo                       Aplicação
+Apresentação                    Transporte
+Sessão				            Rede
+Transporte			            Interface de Rede
+Rede
+Enlace
+Física
+
+Essa comunicação acontece tanto de cima pra baixo
+(cliente), quanto de baixo pra cima (servidor).

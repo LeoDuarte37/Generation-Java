@@ -28,7 +28,7 @@ Modelo cliente-servidor
     * Já o servidor fornece dados para outros computadores com as
     redes LAN/WAN.
 
-    * Existem muitos tipos de seridores, como por exemplo, o servidor
+    * Existem muitos tipos de servidores, como por exemplo, o servidor
     de aplicação ou application server, servidor de arquivos, de banco
     de dados, de email, de Proxy, entre outros.
 
