@@ -1,0 +1,50 @@
+Como surgiu a internet?
+
+    Em 1957, Estados Unidos e a União Soviética protagonizavam a 
+    Guerra Fria, em meio disso, os Estados Unidos procuravam uma 
+    maneira de proteger suas informações e comunicações no caso de 
+    um ataque nuclear soviético. As inovações que tentaram resolver
+    esse problema levaram ao que conhecemos hoje como Internet.
+
+O que é a internet?
+
+    É uma rede global de computadores, que funciona como um sistema
+    postal que entrega e recebe pacotes em alta velocidade. Esse 
+    sistema utiliza TCP/IP e HTTP para se comunicar. Tudo na internet
+    possui um endereço IP, e é assim que se é localizado.
+
+    TCP - Transmission Control Protocol
+    IP - Internet Protocol
+    
+    Qualquer indivíduo com permissão é capaz de obter informações de
+    outro computador.
+
+Modelo cliente-servidor
+
+    * O cliente nesse contexto de desenvolvimento web é uma parcela 
+    de hardware ou software que acessa um serviço disponibilizado
+    por determinado servidor.
+
+    * Já o servidor fornece dados para outros computadores com as
+    redes LAN/WAN.
+
+    * Existem muitos tipos de seridores, como por exemplo, o servidor
+    de aplicação ou application server, servidor de arquivos, de banco
+    de dados, de email, de Proxy, entre outros.
+
+    Esses clientes e servidores se comunicam entre si para passar 
+    informação, ou seja, dados. Os dados enviados pela Internet são
+    chamados de mensagens. Antes de serem enviadas, as mensagens são
+    divididas em fragmentos conhecidos como pacotes, e são enviados
+    de forma separada.
+
+    Como funciona?
+
+    Por exemplo: quando você acessa um site.
+
+    É necessário digitar o endereço na barra de endereços do navegador. 
+    Então sua requisição é dividida em pacotes. Cada pacote segue sua 
+    própria rota para o servidor de destino. O servidor processa a 
+    requisição e devolve as informações, que também são divididas em 
+    pacotes e são enviadas para seu computador, compondo o site que 
+    você vê na sua tela.
