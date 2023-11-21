@@ -1,0 +1,17 @@
+O que é versionamento de código?
+
+    Versionamento é o processo de controlar e gerenciar as 
+    diferentes iterações ou versões de um projeto de software
+    ao longo do tempo. Isso é feito por meio de sistemas de 
+    controle de versão, que registram e armazenam as alterações 
+    feitas no código-fonte, permitindo o acompanhamento do 
+    histórico de desenvolvimento, colaboração em equipe, reversão 
+    de alterações e garantia da integridade do projeto. 
+
+Principais usos e funcionalidades
+
+    - Controle de histórico
+    - Trabalho em equipe
+    - Marcação das versões
+    - Ramificação do projeto (Projeto paralelo para testes de novas funções)
+    - Confiança
