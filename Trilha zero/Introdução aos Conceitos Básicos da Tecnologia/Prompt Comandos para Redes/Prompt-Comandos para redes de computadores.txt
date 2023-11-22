@@ -1,0 +1,22 @@
+Comandos CMD para redes de computadores
+
+hostname                        visualiza o nome da sua máquina (Hostname)
+
+ipconfig                        visualiza a lista de placas de rede e os respectivos Endereços IP
+
+arp -a                          visualiza o Endereço MAC das placas de rede
+
+ping <endereço_destino>         verifica se um computador está disponível em uma rede ou se um servidor está ativo
+ping www.generation.org         Para interromper o comando basta digitar Ctrl + C.
+                                
+                                Também pode se usar o ping na sua máquina, pegando o IPv4 no ipconfig.  
+
+                                Com o comando ping nós podemos medir o tempo de ida e volta (round time trip) 
+                                que um pacote demora para ir do seu host para outro. Você pode usar tanto o 
+                                endereço IP do host ou o endereço Web
+
+tracert <endereço_destino>      Visualiza os caminhos do seu host até um destino
+
+netstat -s                      Faz o rastreamento das portas que são utilizadas no seu computador
+
+netstat -rn                     Visualiza a tabela de roteamento de um host
