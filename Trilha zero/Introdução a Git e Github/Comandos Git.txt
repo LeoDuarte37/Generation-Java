@@ -22,9 +22,14 @@ Comandos para criar uma branch e subir o código dessa branch para o GitHub
 
     git push origin nome_branch - Envia o código para o GitHub na nova branch
 
+    git merge nome_da_outra_branch - Junta o código da sua branch atual com a que você passou
 
 Outros comandos
 
     git status - Mostra a branch e se tem algo para commitar, alterações etc
 
     git branch - Mostra quais branchs você tem
+
+    git log - Mostra todos os commits e quem fez, de baixo para cima. (Para sair, clique 'q')
+
+    git clone Url_repositorio - Clona um repositório online para a pasta local atual
