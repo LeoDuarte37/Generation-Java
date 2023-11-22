@@ -21,3 +21,10 @@ Comandos para criar uma branch e subir o código dessa branch para o GitHub
     git commit -m "Descrição do commit" - Faz um commit com mensagem descritiva
 
     git push origin nome_branch - Envia o código para o GitHub na nova branch
+
+
+Outros comandos
+
+    git status - Mostra a branch e se tem algo para commitar, alterações etc
+
+    git branch - Mostra quais branchs você tem
