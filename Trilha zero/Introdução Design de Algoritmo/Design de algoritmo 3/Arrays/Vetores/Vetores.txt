@@ -1,0 +1,38 @@
+• Vetores é uma variavel, com espaços alocados dentro dela, funcionando como outras variavéis.
+
+• Começa sempre do 0. Então se eu quero 5 valores, irá de 0 até 4.
+
+• No portugol, declaramos da seguinte maneira: cadeia (tipo da variável), depois o nome da variavel,
+e a quantidade de espaços dentro dela escrita entre [ ].
+
+EXEMPLO:
+
+	       0       1       2       3       4
+Cadeia nome  "leo"  "carol"  "caio"  "bia"   "mary"
+
+
+Caso eu queria mostrar na tela um espaço especifico, eu digito:
+
+escreva( nome[2] ) //"Caio"
+
+
+
+
+FORMAS DE DECLARAR:
+
+
+inteiro num[4] = {20, 30, 50, 60}      // pra add valores à esses espaços, usamos chaves { } e  
+					  virgula para separar cada um.
+escreva( num[3] )         // 60
+
+
+				       // obs: se tirar o número dentro dos colchetes [] de num, e
+					  declarar 4 valores entre chaves{ }, irá funcionar da 
+					  mesma forma. Exemplo: inteiro num[] = {20, 30, 50, 60}
+OU:
+
+
+cadeia nome[4]
+
+nome[3] = "Bia"
+nome[0] = "Leo"

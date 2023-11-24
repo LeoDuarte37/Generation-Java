@@ -1,0 +1,9 @@
+
+• Os Arrays são uma estrutura de dados que contém uma lista de itens.
+
+• O comprimento e o tipo de arrays em Portugol são fixos.
+
+• Cada elemento de um array possui um local chamado de índice. 
+Podemos acessar um item do array ao consultar seu índice (como um livro).
+
+• Os índices do array sempre são iniciados por 0, apontando para seu primeiro item.
