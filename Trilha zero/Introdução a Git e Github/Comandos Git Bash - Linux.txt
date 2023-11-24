@@ -6,6 +6,9 @@
     cd ~/primavera               Acessa a pasta primavera dentro da pasta do usuário (se houver);
     cd ..                        Volta a pasta anterior.
 
+    OBS: Se o nome da pasta tiver espacos, coloque ela em aspas duplas
+	Exemplo: cd "Generation Java"/
+
 2. Limpar e visualizar diretório atual
 
     clear    Limpa o terminal bash;
