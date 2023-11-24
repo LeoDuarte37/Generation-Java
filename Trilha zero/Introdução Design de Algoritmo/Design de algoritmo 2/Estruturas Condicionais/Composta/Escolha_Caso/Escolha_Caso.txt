@@ -1,0 +1,14 @@
+
+Dentro ainda da estrutura composta, temos a estrutura "escolha-caso". 
+
+Vejamos:
+
+Condicional Composta (Caso/case): Esta estrutura é utilizada quando se necessita
+utilizar o comando SE repetidas vezes, tornando-se assim um comando de alto poder 
+na estruturação de qualquer algoritmo.
+ 
+
+Ou seja: A estrutura ESCOLHA-CASO (em inglês SWITCH-CASE), é uma 
+solução elegante quanto se tem várias estruturas de decisão (SE-ENTÃO-SENÃO) aninhadas. 
+Isto é, quando outras verificações são feitas caso a anterior tenha 
+falhado (ou seja, o fluxo do algoritmo entrou no bloco SENÃO).
