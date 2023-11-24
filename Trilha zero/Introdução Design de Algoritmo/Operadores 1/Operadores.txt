@@ -1,0 +1,22 @@
+
+Operadores são símbolos especiais que têm um significado próprio 
+para a linguagem e estão associados a determinadas operações. 
+Existem operadores aritméticos como a soma(+) ou a subtração(-), 
+operadores de atribuição, operadores relacionais como a 
+comparação de igualdade (==) e operadores de lógicos. 
+
+
+
+Existem diferentes operadores, até aqui entenderemos 4 deles:
+
+Operadores aritméticos, que executam operações matemáticas, como
+adição e subtração com operandos. 
+
+Operadores de atribuição, que definem o valor armazenado no local 
+indicado por um nome de variável.
+
+Operadores relacionais, utilizados para comparar valores, o resultado de 
+uma expressão relacional é um valor booleano (tipo VERDADEIRO ou FALSO).
+
+Operador lógico, que é um elemento de ligação das palavras 
+que compõem um comando de pesquisa. 
