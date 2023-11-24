@@ -1,0 +1,39 @@
+
+FAÇA ENQUANTO
+
+• Muito parecido com o ENQUANTO, porém tem uma diferença crucial: 
+a condição é verificada após executar o bloco de comandos.
+
+• Há um bloco de comandos e logo depois uma verificação. Assim, 
+caso a variável condicional for alterada dentro 
+do bloco de comandos, isso afetará a validação da condição.
+
+• A escolha entre ENQUANTO e FAÇA ENQUANTO é mínima, então dependerá
+do bom senso do programador, que optará pela estrutura que deixar o 
+algoritmo mais simples e legível. Muito parecido com o ENQUANTO, porém 
+tem uma diferença crucial: a condição é verificada após executar o bloco de comandos.
+
+
+Quando Utilizar?
+
+• Quando é necessário executar um bloco pelo menos uma vez 
+para obter as informações necessárias para avaliar a condição.
+
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro x, acm=0
+		faca
+		{
+			escreva("Digite um valor: ")
+			leia(x)
+			acm = acm+x
+		}enquanto (x != 0)
+		escreva("Eu acumulei: ",acm)
+	}
+}
+
+

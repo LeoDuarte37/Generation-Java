@@ -1,0 +1,52 @@
+Estrutura Enquanto (While)
+
+• É dentre as 3 a mais simples.
+
+•Repete um bloco de código enquanto uma condição permanecer verdadeira.
+
+•Caso a condição seja falsa, os comandos dentro do while não serão
+executados e a execução continuará  com os comandos após o ENQUANTO.
+
+•A repetição do while é controlada por uma condição que verifica alguma variável. 
+Porém para que o ENQUANTO funcione corretamente é importante que 
+essa variável sofra alteração dentro do ENQUANTO. Ex: um contador.
+
+•Após entrar dentro da repetição, o bloco de comandos sempre será 
+executado, mesmo que dentro do bloco a variável que está controlando a execução seja alterada.
+
+
+Quando utilizar?
+
+•Não há necessidade de inicializar ou atualizar variáveis contadoras.
+
+•As etapas de inicialização ou atualização requerem muitas instruções 
+e não caberiam em uma única linha.
+
+•As informações necessárias para avaliar a condição não dependem de 
+uma variável contadora ou são obtidas durante a execução do bloco.
+
+
+
+
+programa
+{
+	
+	inclua biblioteca Util
+	funcao inicio()
+	{
+		inteiro contador = 10
+
+		enquanto (contador>0)
+		{
+			limpa()
+			escreva("Contagem regressiva...", contador)
+			contador = contador -1
+			Util.aguarde(2000)
+		}
+		limpa()
+		escreva("Boooommm!!!")
+	}
+}
+
+
+

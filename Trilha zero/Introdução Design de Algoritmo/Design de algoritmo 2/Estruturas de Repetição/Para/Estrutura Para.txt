@@ -1,0 +1,44 @@
+LAÇO DE REPETIÇÃO 'PARA'
+
+• O For é utilizado para executar um conjunto de comandos executado por um número X de vezes.
+
+• É passada uma situação inicial, uma condição e uma ação a ser executada a cada repetição.
+
+• Uma variável é inicializada com uma valor inicial.
+
+• Essa variável é utilizada para controlar a quantidade 
+de vezes em que o conjunto de comandos será executado.
+
+• E ao final do conjunto de comandos a variável sempre sofrerá 
+uma alteração, aumentando ou diminuindo de acordo com a lógica utilizada.
+
+
+
+Quando Utilizar?
+
+• O número de repetições é controlado por uma variável controladora.
+
+• Há necessidade de inicialização e atualização, mas que sejam simples
+o suficiente para que sejam acomodadas na linha do for. 
+Para casos mais complexos, é melhor usar o comando while.
+
+• A avaliação da condição não depende de dados obtidos na execução do bloco.
+
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro x, tab, res
+		
+		escreva("Qual tabauda você quer ver? ")
+		leia(tab)
+
+		para(x=1;x<=10;x++)                   //x++ funciona como um adicionador do contador (x = x + 1)
+		{		                      //x=1 ; x<=10 esta dizendo com qual valor o x irá começar e o ; separa até qual ele vai.
+			res= x * tab
+			escreva("\n",x," X ",tab," = ",res)
+		}
+	}
+}
