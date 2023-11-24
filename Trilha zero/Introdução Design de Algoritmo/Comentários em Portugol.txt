@@ -1,0 +1,17 @@
+
+Comentários, como o próprio nome instiga, são notas que podem ser 
+incluídas no código fonte para descrever o que se quiser. 
+Assim, não modificam o programa executado e servem somente para 
+ajudar o programador a melhor organizar os seus códigos.
+
+\t - Da um espaço de um Tab dentro do comando escreva.
+	Exemplo: escrever "Meu segundo programa\tFuncional"
+
+// - Serve para fazer um comentário em uma linha.
+
+/*  */ - Serve para fazer comentário em mais de uma linha.
+
+\n - Pula uma linha no escreva.
+	Exemplo: escreva("\nSoma: ", result)
+		 escreva("\nDivisão: ", result)
+		 ...

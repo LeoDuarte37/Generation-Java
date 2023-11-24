@@ -1,0 +1,48 @@
+Linguagem Algorítmica:                          Linguagem Algorítmica no padrão Pascal (em inglês):
+
+Repita                                          Repeat
+
+Ficarei em casa                                 Ficarei em casa
+
+Até que tempo = sol                             Until tempo = sol
+
+
+O que a palavra "Repita" e "Até que" têm em comum aqui? 
+Ambas são palavras que indicam uma aplicação:
+
+"Repita (isso) Até que (aquilo aconteça)"
+
+Palavras reservadas são componentes da própria linguagem e não 
+podem ser redefinidas, ou seja, denominar elementos criados pelo programador.
+Por exemplo, Repeat (Repita), palavra reservada que indica repetição 
+de código, não pode ser nome dos rótulos, constantes, tipos ou quaisquer 
+outros identificadores no programa.
+
+
+EXEMPLO DO QUE VAMOS USAR:
+
+pare: Faz o fluxo sair do bloco do código onde a palavra foi inserida.
+
+caso: Executa um bloco de código dependendo da instrução switch.
+
+continue: Faz com que o código existente após essa instrução não seja executado em um 
+loop, indicando a próxima interação do loop.
+
+caso contrario: Executará esse bloco de código se nenhuma das instruções switch/case for atendida.
+
+faca (faça): Executa um bloco de código uma vez e, em seguida, junto com a instrução "enquanto", 
+processa um teste para determinar se o bloco deve ser executado novamente.
+
+senao (senão): Executa um bloco de código alternativo se uma condição for falsa.
+
+para: Usada para executar um loop condicional em um bloco de código.
+
+se: Usada para executar um teste lógico verdadeiro ou falso.
+
+retorne: Faz o fluxo sair de um método sem executar nenhum código que seja 
+após a instrução (pode retornar uma variável opcionalmente);
+
+escolha: Indica a variável a ser confrontada com as instruções caso.
+
+enquanto: Executa um bloco de código repetidamente, enquanto um certa condição for verdadeira.
+
