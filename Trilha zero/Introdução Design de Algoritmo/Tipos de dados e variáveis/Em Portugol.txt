@@ -1,0 +1,35 @@
+Os tipos de dados primitivos em Portugol são:
+
+inteiro
+real
+lógico
+caracter
+ 
+
+Tipos Primitivos Como tipos primitivos entendemos 
+aqueles tipos de informação mais usuais e básicos. 
+São os habituais de outras linguagens de programação. 
+Descreveremos algum dado para ter em conta em cada tipo.
+
+Lógico Não é um valor numérico, só admite os valores true ou false.
+Carácter Usa o código UNICODE e ocupa cada caractere 16 bits.
+Inteiros Números inteiros, podem ser positivos ou negativos
+Reais em ponto flutuante números com casas decimais
+ 
+
+Variáveis Já uma variável é um espaço na memória do computador destinado
+a um dado que é alterado durante a execução do algoritmo. 
+Para funcionar corretamente, as variáveis precisam ser definidas por nomes e tipos.
+Agora que temos as peças necessárias ( identificadores e tipos ) podemos definir 
+variáveis em Portugol. Uma variável em Portugol é sempre declarada pertencendo a um tipo.
+
+inteiro x = 3   declaração de uma variável 'x' iniciada a 0
+
+real y = 2.5  declaração de uma variável 'y', do tipo real iniciada em 2.5
+
+logico lampadaAcesa = falso  declaração de uma variável 
+'lampadaAcesa', do tipo logico iniciada em falso
+
+caracter c = 'K'  declaração de uma variável 'c', do tipo caracter iniciada em 'K'  // apenas uma letra e entre ' '
+
+cadeia nome "João Roberto"          // cadeia significa cadeia de caracteres, ou seja, vários. É usado com " " 
