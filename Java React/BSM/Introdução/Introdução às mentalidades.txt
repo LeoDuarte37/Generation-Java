@@ -1,0 +1,52 @@
+Mentalidade é uma forma de pensar que pode auxiliar em qualquer situação que possa surgir, seja no seu trabalho ou na vida pessoal.
+
+À medida que você completar a atividade, considere a seguinte pergunta
+
+	• Qual a importância dessas mentalidades em minha futura carreira como desenvolvedor/a/e Java?
+
+
+• Exemplo 1:
+
+	Alex trabalha no departamento de roupas masculinas de uma grande cadeia de moda em São Paulo. Um dia, seu chefe pergunta se ele gostaria de tentar gerenciar os provadores durante um turno esta semana. Alex nunca fez isso antes e não sabe como, então recusa. Duas semanas depois, seu chefe pede novamente para tentar ajudar os clientes nos provadores. Desta vez, Alex relutantemente concorda, mas não sabe o que fazer e se sente constrangido e sobrecarregado. Decidiu falar com um colega de trabalho e pedir conselho. No dia seguinte, tentou usar os conselhos de seu colega de trabalho e concentrou-se em procurar tamanhos diferentes conforme necessário e elogiar os clientes ao experimentarem as roupas. Passado um mês, seu chefe o chamou e o parabenizou por fazer um trabalho tão bom no provador.
+
+	Que mentalidade Alex demonstrou?
+
+	Alex demonstrou Mentalidade de Crescimento.
+ 
+	Ter uma mentalidade de crescimento é acreditar que suas competências mais básicas podem ser desenvolvidas através de dedicação e trabalho árduo. O cérebro e o talento são apenas o ponto de partida.
+
+
+• Exemplo 2
+
+	Susana formou-se recentemente na faculdade, mas não consegue encontrar um emprego, dado o grande número de pessoas procurando um emprego na mesma área. Precisa de um emprego desesperadamente e, felizmente, um amigo a encaminha para uma oportunidade de trabalho. Como parte deste trabalho, ela precisa compilar centenas de pesquisas de clientes, organizar os dados e criar relatórios com recomendações, a fim de melhorar o atendimento ao cliente. Após alguns meses no cargo, sua gerente a chama para o escritório e explica que existem erros e alguns dados ausentes no último relatório. Susana aceita o feedback e entende onde errou. Diz a sua gerente que enviará um relatório atualizado até o final da semana e será mais cuidadosa na coleta de dados
+
+	Que mentalidade Susana demonstrou?
+
+	Susana demonstrou Responsabilidade Pessoal.
+
+	Responsabilidade pessoal significa assumir a responsabilidade por suas próprias ações, trabalhando arduamente, mantendo seus compromissos e não dando desculpas.
+
+
+• Exemplo 3
+
+	Jorge acaba de se formar no programa da Generation. Começou a trabalhar como Desenvolvedor Java em uma empresa de tecnologia há alguns meses e sonha em tornar-se um líder técnico nos próximos 2 anos. Infelizmente, para se tornar um Líder Técnico, você precisa estar familiarizado com pelo menos 3 linguagens de programação e ele só conhece duas. Jorge decide não desistir e aprender uma nova linguagem de programação, JavaScript. Não tem tempo para estudar a nova linguagem durante seu dia de trabalho, então decide inscrever-se em um curso online de 6 meses. É uma carga de trabalho extra e acha difícil de concluir, porém estabelece uma meta de trabalhar no conteúdo do curso 30 minutos por dia. Um ano depois, durante sua revisão anual de desempenho, sua gerente o elogia por seu empenho e trabalho árduo, e lhe dá uma promoção.
+
+ 
+
+	Que mentalidade Jorge demonstrou?
+
+	Jorge demonstrou Orientação ao Futuro.
+
+	Ter orientação ao futuro significa estabelecer metas para o seu futuro, compreender como as ações de hoje impactam nessas metas e verificar seu progresso com frequência.
+
+• Exemplo 4
+
+	Luiz é um novo desenvolvedor júnior em uma empresa de desenvolvimento de software. Parte de seu treinamento se concentra na resolução de erros em um código. Ele encontra erros que não sabe como resolver e fica nervoso todos os dias antes de seu turno. Luiz fica especialmente desapontado com seu nível de ansiedade e desempenho durante os horários mais movimentados do dia. Para melhorar suas habilidades e nível de confiança, ele decide aprender como resolvê-los através dos canais do Youtube após seu turno. Luiz também recebe a ajuda de um desenvolvedor sênior. Só de saber que tem um plano em andamento, ele fica mais relaxado em seu papel de desenvolvedor júnior.
+
+ 
+
+	Que mentalidade Luiz demonstra?
+
+	Luiz demonstra Persistencia.
+
+Ser persistente significa que você continuará tentando de novo e de novo. Com cada tentativa, você se aproximará do sucesso.
