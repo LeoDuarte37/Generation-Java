@@ -1,0 +1,138 @@
+Materiais de apoio/Cookbooks
+
+15 comandos linux: https://www.hostinger.com.br/tutoriais/comandos-linux
+Material professor Gean: https://github.com/geandrol/conteudo_git/tree/main
+
+1. Navegar pelas pastas
+
+    cd caminho/do_diretorio      Acessa o diretório especificado logo a frente;
+    cd /                         Acessa a pasta raiz;
+    cd ~                         Acessa a pasta do usuário atual do PC;
+    cd ~/primavera               Acessa a pasta primavera dentro da pasta do usuário (se houver);
+    cd ..                        Volta a pasta anterior.
+
+    OBS: Se o nome da pasta tiver espacos, coloque ela em aspas duplas
+	Exemplo: cd "Generation Java"/
+
+2. Limpar e visualizar diretório atual
+
+    clear    Limpa o terminal bash;
+    pwd      Mostra o caminho completo do diretório atual.
+
+3. Criar pastas
+
+    mkdir nome_da_pasta             Cria uma nova pasta; 
+    mkdir pasta1 pasta2 pasta3      Cria várias pastas;
+    mkdir pasta1/java               Cria a pasta 'java' dentro da pasta especificada.
+
+4. Criar arquivos vazios
+
+    touch nome_do_arquivo.txt          Cria um arquivo; 
+    touch arquivo1.txt arquivo2.txt    Cria vários arquivos;
+    touch pasta1/java/teste.java       Cria o arquivo dentro da pasta especificada.
+
+5. Listando arquivos e pastas
+
+    ls                     Lista as pastas e arquivos da pasta atual;
+    ls -1                  Lista as pastas e arquivos, um para cada linha do terminal, da pasta atual;
+    ls -l                  Lista as pastas e arquivos, um para cada linha do terminal, com todas informações;
+    ls -ld                 Mostra os detalhes da pasta atual sem exibir seu conteudo;
+    ls -ld /nome_pasta     Mostra os detalhes de uma pasta especifica sem exibir o seu conteudo; 
+    ls -a                  Mostra todo o conteudo da pasta atual, incluido arquivos e pastas ocultas; 
+    ls -lh                 Lista todo conteudo da pasta atual, com os tamanhos de arquivos (Kb, Mb, G, Tb);
+    ls *.txt               Lista todos os arquivos com a extensão .txt da pasta atual;
+    ls p*                  Lista todos os arquivos e pastas que começam com a letra P da pasta atual.
+
+6. Localizar com Find
+
+    find p*.txt                                         Lista todos os arquivos do tipo .txt que começam com a letra 'p' na 
+                                                        pasta do seu usuário.
+
+7. Editar arquivo de texto com o Nano
+
+    nano primavera.txt                                  Abre um editor de texto no terminal, onde poderá ser feito a edição.
+
+    Para salvar o arquivo: CTRL + X
+    Para sair: Y, depois Enter
+
+8. Visualizar o conteudo de um arquivo
+
+    cat primavera.txt                                   Retornará o conteúdo de texto dentro desse arquivo .txt.
+
+9. Localizar palavras em arquivos de texto
+
+    cat primavera.txt | grep flores                     Se a palavra 'flores' existir nesse arquivo, aparecerá em cor vermelha.  
+
+10. Copiar arquivos 
+
+    cp arquivo_original pasta_destino_da_cópia          Copia o arquivo_original para a pasta_destino_da_cópia;
+    cp verao.txt outono.txt inverno.txt ~/verao/sol/    Copia multiplos arquivos, e envia para a pasta especificada dentro do usuário (~).
+
+    A barra no fim da pasta especificada é importante
+    para ele interpreta-lá como uma pasta, e não arquivo.
+
+11. Copiar Pastas e Sub-pastas
+
+    cp -r /pasta_origem/sol /pasta_destino/inverno      Copia a pasta 'sol' para a pasta 'inverno';
+
+12. Mover e Renomear Arquivos
+
+    mv arquivo_original pasta_destino                   Move o arquivo_original para a pasta_destino;
+    mv python.txt ~/python/
+    mv primavera.txt primavera_chegou.txt               Renomeia o nome do arquivo;
+    mv nomes.txt ~/anotacoes/nomes_bonitos.txt          Move o arquivo 'nomes' para a pasta 'anotacoes' e renomeia ele para nomes_bonitos.
+
+13. Apagando arquivos
+
+    rm nome_do_arquivo                                  Apaga o nome_do_arquivo da pasta atual (da pra apagar mais de um);
+    rm ~/anotacoes/*.txt                                Apaga todos os arquivos do tipo .txt da pasta anotacoes, localizada no usuário.
+
+14. Apagar pastas
+
+    rm -Rf nome_da_pasta                                Apaga a pasta e subpastas de nome_da_pasta;
+    rm -r nome_da_pasta                                 Apaga a pasta nome_da_pasta;
+    rmdir nome_do_pasta                                 Apaga uma pasta vazia.
+    
+15. Ver a hora e dia do sistema
+
+    date
+
+16. Consultar manual de cada comando
+
+    man nomeDoComando                                   Gera um manual do nomeDoComando, com descrição, opções, etc.
+    man mkdir
+
+17. Comando de verificação: top
+
+    top                                                 Ele lista todos os processos (programas) que estão sendo executados na sua VPS,
+                                                        e o quanto estão consumindo de Memória Ram, Processador, etc.
+
+18. Comando de verificação: free
+
+    free                                                Verifica a Memória Ram da sua VPS. 
+
+19. Fazer download 
+
+    wget urlDoDownload                                  Faz download da urlDoDownload.
+
+20. Descompactar arquivos tar ou tar.gz
+
+    tar -zxvf nome_do_arquivo                           
+
+21. Descompactar arquivos zip
+
+    unzip nome_do_arquivo                             
+
+22. localizar arquivos
+
+    locate -i nome_do_arquivo                           Procura o arquivo no gerenciador. -i é um argumento que o torna insensível
+                                                        a letras minúsculas e maiúsculas.
+
+    Para procurar arquivos com nomes 
+    compostos, use o *.
+
+    Exemplo: nome*do*arquivo
+
+
+
+
