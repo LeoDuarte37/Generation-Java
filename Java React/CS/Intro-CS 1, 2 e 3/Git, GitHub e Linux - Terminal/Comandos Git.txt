@@ -1,0 +1,92 @@
+Materiais de apoio/Cookbooks
+
+    Comandos Git: https://comandosgit.github.io
+
+Comandos pra dar push para o GitHub:
+
+    git init                                                                Inicializa um repositório Git local
+    
+    git add . ou git add nome_do_arquivo                                    Adiciona as alterações ao índice
+    
+    git commit -m "Descrição do commit"                                     Faz um commit com mensagem descritiva
+    
+    git branch -m main                                                      Renomeia a branch principal (opcional)
+    
+    git remote add origin Url_repositorio                                   Add o repositório remoto como origem
+
+    git remote -v                                                           Verifica se está conectado ao repositório remoto
+    
+    git push -u origin main ou git push -u origin nome_branch               Envia o código 
+    para o GitHub
+
+Comandos para criar uma branch e subir o código dessa branch para o GitHub:
+
+    git checkout -b nome_branch                                             Cria (-b) e muda para uma nova branch
+
+    git add . ou git add nome_do_arquivo                                    Adiciona as alterações ao indice
+
+    git commit -m "Descrição do commit"                                     Faz um commit com mensagem descritiva
+
+    git push origin nome_branch                                             Envia o código para o GitHub na nova branch
+
+    git merge nome_da_outra_branch                                          Junta o código da sua branch atual com a que você passou
+
+Outros comandos:
+
+    git status                                                              Mostra a branch e se tem algo para commitar, alterações etc
+
+    git branch                                                              Mostra quais branchs você tem
+
+    git checkout main                                                       Sai da branch atual e volta para a main
+
+    git log                                                                 Mostra todos os commits e quem fez, de baixo para cima. (Para sair, clique 'q')
+
+    git clone Url_repositorio                                               Clona um repositório online para a pasta local atual
+
+    git diff                                                                Mostra as alterações feitas
+
+    git reset HEAD~1                                                        Desfaz o ultimo commit 
+
+    reset HEAD~1 -- hard                                                    Desfaz o ultimo commit e apaga tudo novo que foi commitado
+
+    git fetch                                                               Atualiza o repositório local com as alterações efetuadas no repositório remoto.
+    git pull origin main                                                    Aplica as atualizações no repositório local.
+
+
+Comandos uteis e de exclusão de branches
+
+    git push origin task3:nova_branch                                       Cria uma Branch no Github
+
+    git push origin:nome_branch                                             Apaga uma Branch no github
+
+    git branch -m novo_nome                                                 Renomeia uma Branch
+
+    git branch -d nome_branch                                               Apaga uma Branch no Repositório Local
+
+    git push -f origin main                                                 Força uma atualização no Repositório Remoto
+
+    git pull -f origin main                                                 Força uma atualização no Repositório Local
+
+    git commit --amend                                                      Altera a mensagem do ultimo commit
+                                                                            O Editor padrão do Git será aberto. Altere a mensagem e feche o editor.
+
+    git commit --amend -m "Mensagem nova"                                   Caso não queira usar o editor
+
+    git branch -M master main                                               Renomeia a Branch master para main
+
+    git rm --cached <nome da pasta ou arquivo>                              Este comando é muito útil para resolver o problema da "pasta presa" no Github, 
+                                                                            ou seja, a pasta possui a pasta oculta .git, gerando uma duplicidade de repositório. 
+                                                                            Quando isto acontece, a pasta fica inacessível e o ícone muda para uma pasta com uma 
+                                                                            seta. O comando acima elimina a pasta oculta .git da subpasta e disponibiliza o 
+                                                                            conteúdo da pasta para ser "commitado" novamente.
+
+Resolução de problemas
+
+    O VSCode oferece 3 opções para resolver um conflito e mais uma para ajudar na decisão:
+
+    Accept Current Change: Mantém a mudança local
+    Accept Incoming Change: Mantém a mudança remota
+    Accept Both Changes: Une as 2 mudanças
+    Compare Changes: Exibe os 2 arquivos lado a lado, para que você possa comparar as diferenças.
+
+    Depois faça o commit e um push das alterações.

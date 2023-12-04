@@ -1,7 +1,7 @@
 Materiais de apoio/Cookbooks
 
-15 comandos linux: https://www.hostinger.com.br/tutoriais/comandos-linux
-Material professor Gean: https://github.com/geandrol/conteudo_git/tree/main
+    15 comandos linux: https://www.hostinger.com.br/tutoriais/comandos-linux
+    Material professor Gean: https://github.com/geandrol/conteudo_git/tree/main
 
 1. Navegar pelas pastas
 
