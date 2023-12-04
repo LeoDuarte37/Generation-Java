@@ -1,0 +1,30 @@
+História
+
+    Na decada de 90, a industria de desenvolvimento de software
+    passou por dificuldades nas entregas de projetos, utilizando
+    a Metodologia em Cascata. 
+
+    Ela é totalmente documentada e não permite alterações, e nem
+    visualização do software, até ele ser concluido.
+
+    Com isso nasceu as Metologias Ágeis. XP, Crystal, DSDM são
+    metodologias técnicas. Já o Scrum e o Kaban são os mais 
+    famosos entre as metodologias gerenciais. 
+
+O que é?
+
+    Ágil é uma forma de pensar, deve-se adotar a filosofia em sua
+    cabeça, para agir assim.
+
+    Passos
+
+        1. Entenda onde você está
+        2. Dar um pequeno passo para a direção que deseja chegar
+        3. Avaliar o que aconteceu nesses passos
+        4. Repete
+
+Vantagens:
+
+    Menos tempo na atividade;
+    Veloz nas entregas;
+    Pouca burocracia;

@@ -1,0 +1,124 @@
+O que é?
+
+    Um framework simples para gerenciar, entregar e 
+    manter projetos complexos.
+
+    OBS: Não é somente para desenvolvimento de software!
+
+    Pilares:
+
+        - Transparência (Transparência dos processos, requisitos de entrega e status)
+        - Inspeção (Inspeção constante dos feitos)
+        - Adaptação (Tanto processo, quanto produto, são adaptáveis a mudanças)
+
+
+Papéis
+
+    • Product Owner (PO)
+
+        - Ponte entre o time e cliente;
+        - Decide qual melhor ciclo de entrega;
+        - Decide quais funcionalidades e as ordens
+          de prioridade;
+        - Entende as regras do cliente para ditar 
+          o ciclo do projeto;
+        - Garante transparência entre o que o cliente 
+          quer e o que precisa ser feito.
+
+    • Scrum Master (SM)
+
+        - Responsável por disseminar os valores e 
+          princípios do Scrum;
+        - Facilitador, didático e consultivo;
+        - Remove impedimentos que atrapalhem o time;
+        - Protege a equipe de fatores que atrapalham
+          produtividade.
+
+    • Team Devs
+
+        - Multidisciplinar;
+        - Autogerenciável;
+        - Assume as tarefas quem tiver mais disponibilidade;
+        - Define como será feito a entrega e a melhor forma
+          de conduzir o Sprint;
+        - Entrega os itens priorizados dentro das Sprints.
+
+Artefatos
+
+    • Product Backlog
+
+        - Lista ordenada por prioridades de tudo que deve
+          ser necessário para o produto;
+        - Responsabilidade do Product Owner;
+        - Um Backlog do produto é dinâmico (nunca está completo).
+
+    • Sprint Backlog
+
+        - Conjunto de itens do Backlog do produto selecionados
+          para a Sprint, juntamente com o plano para entregar o 
+          incremento do produto e atingir o objetivo da Sprint.
+        - Torna visível todo o trabalho que o time de desenvolvimento 
+          identifica como necessário para atingir o objetivo da Sprint.
+
+    • Incremento Sprint
+
+        - Soma de todos os itens do Backlog do produto 
+          contemplados durante a Sprint;
+        - Valor dos incrementos de todas as Sprints 
+          anteriores;
+        - Ao final de toda Sprint o incremento deve estar
+          na condição de "Pronto" realizada pelo time Scrum.
+
+Eventos
+
+    • Visão do produto
+        
+        Product owner fornece macro planejamento
+
+    • Product Backlog 
+
+        Product owner e Scrum master determinam as funcionalidades 
+        necessárias, As prioridades são determinadas pela sua importância.
+
+    • Sprint 
+
+        Pequenas subdivisões das funcionalidades do product backlog, possuem 
+        datas de entrega individuais.
+
+    • Sprint Backlog 
+    
+        Planilha de divisão dos sprints, com tempos pré definidos e 
+        fixos de entrega (geralmente de 2 a 4 semanas).
+
+    • Planejamento Sprint
+
+        Reunião de time que define quantas funcionalidades podem 
+        ser concluídas no tempo de um sprint.
+
+    • Execução Sprint 
+
+        Se montam as funcionalidades determinadas. É esperado que ao 
+        fim de cada sprint se tenha um pedaço funcional do produto.
+
+    • Daily - Reunião diária de acompanhamento (15 min):
+
+        - O que fez ontem?
+        - O que vai fazer hoje?
+        - Tem algum impedimento para realizar as tarefas escolhidas para o dia?
+
+    • Revisão Sprint
+
+        Ao fim de um sprint, se avalia o sprint e verifica-se se são 
+        necessárias mudanças, e se ele está de acordo com as expectativas do projeto, 
+        ou se ocorrerá uma adaptação do Product Backlog.
+
+    • Retrospectiva Sprint 
+
+        Verificação das necessidades de adaptação nos processos, 
+        e o que pode ser melhorado ou modificado.
+
+    • Burndown chart
+    
+        Um gráfico de determinação de progresso de sprint, ele determina 
+        quantas histórias devem ser entregues por dia em um sprint, e demonstra visualmente 
+        o progresso.
