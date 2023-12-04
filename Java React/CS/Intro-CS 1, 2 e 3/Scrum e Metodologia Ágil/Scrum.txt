@@ -1,3 +1,7 @@
+Materiais de apoio/Cookbooks
+
+Scrum: https://www.atlassian.com/br/agile/scrum
+
 O que é?
 
     Um framework simples para gerenciar, entregar e 
@@ -93,7 +97,7 @@ Eventos
     • Planejamento Sprint
 
         Reunião de time que define quantas funcionalidades podem 
-        ser concluídas no tempo de um sprint.
+        ser concluídas no tempo de um sprint. Tempo máximo de 8 horas (seguido a risca).
 
     • Execução Sprint 
 
@@ -118,7 +122,7 @@ Eventos
         e o que pode ser melhorado ou modificado.
 
     • Burndown chart
-    
+
         Um gráfico de determinação de progresso de sprint, ele determina 
         quantas histórias devem ser entregues por dia em um sprint, e demonstra visualmente 
         o progresso.
