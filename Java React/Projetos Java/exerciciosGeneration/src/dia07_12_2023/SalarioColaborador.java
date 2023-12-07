@@ -17,6 +17,13 @@ public class SalarioColaborador {
 		System.out.println("\nDigite o nome do colaborador: ");
 		nome = ler.nextLine();
 		
+		System.out.println("\n1: Gerente - 10%");
+		System.out.println("\n2: Vendedor - 7%");
+		System.out.println("\n3: Supervisor - 9%");
+		System.out.println("\n4: Motorista - 6%");
+		System.out.println("\n5: Estoquista - 5%");
+		System.out.println("\n6: Técnico de TI - 8%");
+		
 		System.out.println("\nDigite o código do cargo de " + nome);
 		codigo = ler.nextInt();
 		

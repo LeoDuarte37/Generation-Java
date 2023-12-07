@@ -11,10 +11,18 @@ public class ProdutosComprados {
 		int codigo, quantidade;
 		float valorTotal;
 		
-		System.out.println("Digite o código do produto comprado: ");
+		System.out.println("\tLanchonete");
+		System.out.println("\n1: Cachorro quente - R$10");
+		System.out.println("\n2: X-Salada - R$15");
+		System.out.println("\n3: X-Bacon - R$18");
+		System.out.println("\n4: Bauru - R$12");
+		System.out.println("\n5: Refrigerante - R$8");
+		System.out.println("\n6: Suco de Laranja - R$13");
+		
+		System.out.println("\nDigite o código do produto comprado: ");
 		codigo = ler.nextInt();
 		
-		System.out.println("Digite a quantidade do produto comprado: ");
+		System.out.println("\nDigite a quantidade do produto comprado: ");
 		quantidade = ler.nextInt();
 		
 		switch (codigo) {

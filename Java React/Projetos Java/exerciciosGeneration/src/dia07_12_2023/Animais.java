@@ -19,12 +19,12 @@ public class Animais {
 		
 		if (tipo.equals("vertebrado")) {
 			System.out.println("\nDigite uma das duas opções");
-			System.out.println("Ave - Mamífero");
+			System.out.println("Ave - Mamifero");
 			tipo = ler.nextLine().toLowerCase();
 			
 			if (tipo.equals("ave")) {
 				System.out.println("\nEscolha uma das duas opções");
-				System.out.println("1 - Carnívero");
+				System.out.println("1 - Carnivero");
 				System.out.println("2 - Onívoro");
 				opcao = ler.nextInt();
 				
@@ -38,7 +38,7 @@ public class Animais {
 					break;
 				}
 				
-			} else {
+			} else if (tipo.equals("mamifero")){
 				System.out.println("\nEscolha uma das duas opções");
 				System.out.println("\n1 - Onívoro");
 				System.out.println("\n2 - Herbívoro");
@@ -56,9 +56,9 @@ public class Animais {
 			}
 			
 			
-		} else {
+		} else if (tipo.equals("invertebrado")) {
 			System.out.println("\nDigite uma das duas opções");
-			System.out.println("Inseto - Anedíleo");
+			System.out.println("Inseto - Anedileo");
 			tipo = ler.nextLine().toLowerCase();
 			
 			if (tipo.equals("inseto")) {
@@ -77,7 +77,7 @@ public class Animais {
 					break;
 				}
 				
-			} else {
+			} else if (tipo.equals("anedileo")){
 				System.out.println("\nEscolha uma das duas opções");
 				System.out.println("\n1 - Hematófogo");
 				System.out.println("\n2 - Onívoro");
