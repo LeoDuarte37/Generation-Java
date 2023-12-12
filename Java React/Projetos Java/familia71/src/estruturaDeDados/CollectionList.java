@@ -1,0 +1,95 @@
+package estruturaDeDados;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class CollectionList {
+
+	public static void main(String[] args) {
+		
+		
+		List<Integer> minhaLista = new ArrayList<Integer>();
+		
+		/*
+		 * 	List é uma collection que irá fazer toda a manipulação
+		 * 	dos dados, através de uma estrutura de dados do tipo lista
+		 * 
+		 * 	List não aceita dados do tipo primitivo, apenas objetos. O 
+		 * 	Integer é um objeto da classe Wrapper que vai substituir um 
+		 * 	dado do tipo primitivo (int, float, double, boolean etc...)
+		 */
+		
+		minhaLista.add(8); // add -> adiciona valores para o ArrayList
+		minhaLista.add(6);
+		minhaLista.add(3);
+		minhaLista.add(2);
+		
+		System.out.println("\n\tMostrando os elementos da lista");
+		for (Integer listaElementos : minhaLista) {		// For Each
+			System.out.println(listaElementos);
+		}
+		
+		System.out.println("\n\tRemovendo um elemento da lista");
+		minhaLista.remove(0);
+		for (Integer listaElementos : minhaLista) {		// For Each
+			System.out.println(listaElementos);
+		}
+		
+		
+		// Pegando um elemento da lista
+		int primeiroElemento = minhaLista.get(0);
+		System.out.println("\nO primeiro elemento da lista é: " + primeiroElemento);
+		
+		for (int i = 0; i < minhaLista.size(); i++) {	// size() -> substitui o length
+			System.out.println("\nElemento: " + minhaLista.get(i));
+		}
+		
+		
+		// Ordenando os elementos da lista
+		Collections.sort(minhaLista);
+		
+		System.out.println("\n\tLista depois de ordenada: ");
+		System.out.println("\n" + minhaLista);
+		System.out.println(); 	// System.out.println vazio, limpa o cache
+		
+		
+		/*	Métodos da Collections
+		 	
+		 	sort() 		Ordena a lista.
+		 	max()		Retorna o maior elemento.
+		 	min()		Retorna o menor elemento.
+		*/
+		
+		/* 	Métodos da Collection List
+		 	
+		 	add(Objeto)			Adiciona um objeto no final da lista.
+		 	
+			add(Indice,Objeto)	Adiciona um objeto na posição indicada (empurra 
+								elementos existentes para a frente)
+			
+			get(Indice)			Recupera um objeto pelo índice.
+			
+			indexOf(Objeto)		Procura um objeto e retorna índice da primeira ocorrência do objeto.
+			
+			set(Indice,Objeto)	Grava um objeto na posição indicada (apaga qualquer
+								outro que ocupava a posição).
+			
+			remove(Indice)		Apaga o objeto armazenado na posição indicada pelo índice.
+			
+			clear()				Limpa a lista.
+			
+			size()				Retorna o tamanho da lista (numero de elementos armazenados).
+			
+			isEmpty()			Retorna true se a lista está vazia.
+			
+			contains(Objeto)	Retorna true se existe uma ocorrência do elemento na lista.
+			
+			sort(null)			Ordena os elementos da lista em ordem crescente.
+			
+			sort(Comparator.reverseOrder())	Ordena os elementos da lista em ordem decrescente.
+		*/
+		
+	}
+
+}

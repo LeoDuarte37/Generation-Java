@@ -1,4 +1,4 @@
-package operadoresaritmeticos;
+package operadoresAritmeticos;
 
 public class operadoresLogicos {
 

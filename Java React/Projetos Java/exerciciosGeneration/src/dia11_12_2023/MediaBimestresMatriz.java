@@ -25,7 +25,15 @@ public class MediaBimestresMatriz {
 		}
 		
 		for (int i = 0; i < 10; i++) {
-			System.out.println("\nMédia do " + i + "° aluno: " + media[i]);
+			System.out.printf("\nMédia do " + i + "° aluno: %.1f", media[i]);
+			
+			/*
+			 *  printf + %.1f 	Arredonda o número float ou double.
+			 *  
+			 *  O .1 no "%.1f" é quantas casas decimais após a 
+			 *  virgula, irá aparecer e arredondar.
+			 */
+			
 		}
 	}
 

@@ -1,11 +1,11 @@
-package estruturaderepeticao;
+package estruturaDeRepeticao;
 
 import java.util.Scanner;
 
-public class While {
+public class DoWhile {
 
 	public static void main(String[] args) {
-		
+
 		Scanner ler = new Scanner(System.in);
 		
 		String opcao = "sim";
@@ -13,7 +13,7 @@ public class While {
 		
 		System.out.println("\tCalculadora que só multiplica por 5");
 		
-		while (opcao.equals("sim")) {
+		do {
 			System.out.println("\nDigite um valor: ");
 			num = ler.nextFloat();
 			
@@ -22,7 +22,9 @@ public class While {
 			
 			System.out.println("\nDeseja continuar? Sim/Não");
 			opcao = ler.next().toLowerCase();
-		}
+			
+		} while (opcao.equals("sim"));
+
 	}
 
 }

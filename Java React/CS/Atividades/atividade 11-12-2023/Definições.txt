@@ -1,0 +1,27 @@
+• Quadro Kanban	
+ 
+	Quadro de fluxo de trabalho que ajuda no gerenciamento de projetos ágeis
+
+• Manifesto Ágil	
+
+	Uma filosofia de projetos ágeis, que possui 4 valores e 12 principios.	
+
+• Concluído/Em Andamento/Necessita Revisão 
+
+	São 3 fases Kanban Board, nas quais nos ajudam a visualizar melhor o que tem quer ser revisado, o que foi feito, e o que está em andamento.
+
+
+----------------------------------------------------------------------------
+
+
+• Retrospectiva de Sprint
+
+	Verificar as necessidades de adaptação nos processos, o que pode ser melhorado ou modificado.
+
+• Requisito de usuário
+
+	Funcionalidades ou caracteristicas do produto para atender ao usuário, ou comprador do projeto. 
+
+• Backlog
+
+	Local onde é listado as tarefas para entrega do projeto

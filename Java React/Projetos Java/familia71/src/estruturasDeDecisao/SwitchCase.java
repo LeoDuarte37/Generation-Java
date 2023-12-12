@@ -1,4 +1,4 @@
-package estruturasdedecisao;
+package estruturasDeDecisao;
 
 import java.util.Scanner;
 
