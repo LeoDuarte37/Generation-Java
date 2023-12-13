@@ -99,6 +99,31 @@ public class CollectionFila {
 		} while(op != 5);
 		
 		ler.close();
+		
+		/*	Métodos do Queue
+		  
+		 	add(elemento)			Este método é usado para adicionar um elemento no final da fila.
+		 	
+			size()					Este método é usado para retornar o tamanho da fila.
+			
+			clear()					Este método é usado para remover todos os elementos da fila.
+			
+			remove(elemento)		Este método é usado para remover e retornar o primeiro elemento da fila.
+			
+			isEmpty()				Este método é usado para verificar se a fila está vazia ou não. 
+									Retorna verdadeiro se a fila estiver vazia, caso contrário, falso.
+			
+			contains(elemento)		Este método é usado para verificar se a fila contém o elemento 
+									fornecido ou não. Retorna verdadeiro se a fila contiver o elemento.
+			
+			peek()					Este método é usado para exibir, mas não remover, o elemento que está 
+									sendo apontado pelo ponteiro HEAD desta fila (o primeiro elemento), 
+									ou retornar nulo se esta fila estiver vazia.
+			
+			poll()					Este método é usado para exibir e remover, o elemento que está sendo 
+									apontado pelo ponteiro HEAD desta fila (o primeiro elemento), ou 
+									retornar nulo se esta fila estiver vazia.
+		*/
 	}
 
 }

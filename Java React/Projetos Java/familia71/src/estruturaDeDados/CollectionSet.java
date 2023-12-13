@@ -13,7 +13,8 @@ public class CollectionSet {
 		/*
 		   	Set é uma extensão de Collection, e modela a definição matemática de 
 		   	um conjunto de dados. É uma coleção de objetos que NÂO aceita objetos 
-		   	duplicados. Permite no máximo um único elemento nulo.
+		   	duplicados e que não possui uma ordem de inserção para os elementos. 
+		   	Permite no máximo um único elemento nulo.
 		   	
 		   	Possui 3 implementações: HashSet, TreeSet, e LinkedHashSet. 
 		   	
