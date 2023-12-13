@@ -12,13 +12,29 @@ public class CollectionList {
 		List<Integer> minhaLista = new ArrayList<Integer>();
 		
 		/*
-		 * 	List é uma collection que irá fazer toda a manipulação
-		 * 	dos dados, através de uma estrutura de dados do tipo lista
-		 * 
-		 * 	List não aceita dados do tipo primitivo, apenas objetos. O 
-		 * 	Integer é um objeto da classe Wrapper que vai substituir um 
-		 * 	dado do tipo primitivo (int, float, double, boolean etc...)
-		 */
+		  	List é uma extensão da Interface Collection. Faz toda a 
+		  	manipulação dos dados e funciona como um array (possui 
+		  	indices), porém com um tamanho dinâmico (não precisamos 
+		  	definir ele). 
+
+ 			Ela possui 4 implementações: ArrayList, Vector, LinkedList
+ 			e Stack.
+ 			
+ 			ArrayList e Vector são semelhantes e apenas se diferenciam 
+ 			na performance (ArrayList se sai melhor nisso).
+ 			
+ 			LinkedList ou Lista Vinculada é uma estrutura de dados linear, 
+ 			na qual os elementos não são armazenados de forma sequencial. 
+ 			Os elementos em uma lista vinculada são vinculados usando 
+ 			ponteiros internamente, que "apontam" para o endereço de 
+ 			Memória do próximo item (SimpleLinkedList - Lista Vinculada 
+ 			simples) ou para o endereço de Memória do próximo item e do 
+ 			item anterior (DoubleLinkedList - Lista Duplamente Vinculada).
+ 			
+ 			E por ultimo o Stack. Uma Pilha é uma estrutura de dados do 
+ 			tipo LIFO: "O último elemento inserido na pilha é o primeiro 
+ 			elemento que será retirado da pilha." (Last In - First Out).
+		*/
 		
 		minhaLista.add(8); // add -> adiciona valores para o ArrayList
 		minhaLista.add(6);
