@@ -17,15 +17,12 @@ public class ArraySet10Numeros {
 		System.out.println("\tAdicione 10 números (não repetidos) à lista de números: ");
 		
 		do {
-			System.out.println("\nDigite um número: ");
+			System.out.println("\nDigite o " + (i+1) + "° número: ");
 			int numero = ler.nextInt();
 			numeros.add(numero);
 			
 			i++;
 		} while(i < 10);
-		
-		System.out.println("\n\t(Set) Os números digitados foram: ");
-		System.out.println("\n" + numeros);
 		
 		Iterator<Integer> iNumeros = numeros.iterator();
 		
@@ -33,6 +30,8 @@ public class ArraySet10Numeros {
 		while (iNumeros.hasNext()) {
 			System.out.println(iNumeros.next());
 		}
+		
+		ler.close();
 	}
 
 }
