@@ -1,4 +1,4 @@
-package dia12_12_2023;
+package dia13_12_2023;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class QueueFilaDoBanco {
 
 	public static void main(String[] args) {
-		
+
 		Queue<String> fila = new LinkedList<String>();
 		int op;
 		
@@ -62,6 +62,7 @@ public class QueueFilaDoBanco {
 		} while(op != 4);
 		
 		ler.close();
+
 	}
 
 }

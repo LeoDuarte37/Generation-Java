@@ -1,4 +1,4 @@
-package dia12_12_2023;
+package dia13_12_2023;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -6,7 +6,7 @@ import java.util.Stack;
 public class StackLivros {
 
 	public static void main(String[] args) {
-		
+
 		Stack<String> pilha = new Stack<String>();
 		int op;
 		
@@ -62,6 +62,7 @@ public class StackLivros {
 		} while(op != 4);
 		
 		ler.close();
+
 	}
 
 }
