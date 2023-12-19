@@ -1,34 +1,33 @@
-package poo;
+package poo3;
 
 public class BaseFigura {
-	
 	// Atributos
 	protected double lado1, lado2;
 	protected String nome, nomeClasse;
-	
+
 	// Construtor
-	BaseFigura(double lado1, double lado2, String nome){
+	BaseFigura(double lado1, double lado2, String nome) {
 		this.lado1 = lado1;
 		this.lado2 = lado2;
 		this.nome = nome;
 	}
-	
+
 	// Getters and Setters
 	public double getArea() {
 		// Tem na interface
 		return lado1 * lado2;
 	}
-	
+
 	public double getPerimetro() {
 		// Tem na interface
 		return (lado1 + lado2) * 2.0;
 	}
-	
+
 	public String getNome() {
 		// Tem na interface
 		return nome;
 	}
-	
+
 	public void setNome(String nome) {
 		// Tem na interface
 		this.nome = nome;
@@ -57,6 +56,4 @@ public class BaseFigura {
 	public void setNomeClasse(String nomeClasse) {
 		this.nomeClasse = nomeClasse;
 	}
-	
-	
 }

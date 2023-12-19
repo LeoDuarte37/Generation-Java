@@ -1,4 +1,4 @@
-package poo;
+package poo3;
 
 public class TesteFiguras {
 

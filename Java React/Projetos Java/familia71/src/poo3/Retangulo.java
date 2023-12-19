@@ -1,7 +1,7 @@
-package poo;
+package poo3;
 
-public class Retangulo extends BaseFigura implements Figuras {
-	
+public class Retangulo extends BaseFigura implements Figuras{
+
 	Retangulo(double lado1, double lado2, String nome) {
 		super(lado1, lado2, nome);
 		nomeClasse = "Retângulo";
