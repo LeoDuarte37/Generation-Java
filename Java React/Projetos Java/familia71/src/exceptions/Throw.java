@@ -9,9 +9,7 @@ public class Throw {
 		Scanner ler = new Scanner(System.in);
 
 		boolean loop = true;
-
 		int idade = 1;
-		boolean lop = true;
 
 		do {
 
