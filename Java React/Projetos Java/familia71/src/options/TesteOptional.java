@@ -13,6 +13,7 @@ public class TesteOptional {
 		if (checaNulo.isPresent()) { 	// isPresent retorna true ou false para saber se é nulo ou não
 			String palavra = palavras[1].toLowerCase();
 			System.out.print(palavra);
+			
 		} else {
 			System.out.println("A palavra é nula!");			
 		}

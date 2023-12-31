@@ -1,4 +1,4 @@
-package poo2;
+ package poo2;
 
 public class Celular extends Telefone {
 	
