@@ -1,0 +1,116 @@
+
+• Criar um banco de dados		CREATE DATABASE db_nomeDoBanco;	
+
+
+• Apagar um banco de dados		DROP DATABASE db_nomeDoBanco;
+
+
+• Indicar banco de dados para uso	USE db_nomeDoBanco;
+
+
+• Criar uma tabela			CREATE TABLE tb_nomeDaTabela (
+						nomeCampo tipoDado clausula
+					);
+
+					obs: Clausula é opcional.
+
+					Exemplo:
+		
+					CREATE TABLE tb_produtos (
+						id BIGINT AUTO_INCREMENT,
+    						nome VARCHAR(255) NOT NULL,
+    						quantidade INT,
+    						datavalidade DATE,
+    						preco DECIMAL NOT NULL,
+						PRIMARY KEY (id)
+					);
+
+					PRIMARY KEY(coluna) - Chave primária;
+					FOREIGN KEY(coluna) REFERENCES nomeTabela(coluna) - Chave estrangeira 
+
+
+• Apagar uma tabela			DROP TABLE tb_nomeTabela;
+
+					Exemplo:
+
+					DROP TABLE tb_produtos;
+
+
+
+• Inserir dados na tabela		INSERT INTO tb_nomeTabela(campos) 						
+					VALUES (valores);
+
+					Exemplo: 
+
+					INSERT INTO tb_produtos(nome, quantidade, datavalidade, preco)
+ 					VALUES ("tomate", 100, "2023-05-23", 8.00);
+
+
+
+• Visualizar registros da tabela	SELECT * FROM tb_nomeTabela;
+
+• Visualizar registros com filtro	SELECT * FROM tb_nomeTabela WHERE condição;
+
+					Exemplo:
+
+					SELECT * FROM tb_produtos WHERE id = 3;
+					SELECT * FROM tb_produtos WHERE preco < 8.00;
+					SELECT * FROM tb_produtos WHERE preco < 8.00 AND 
+	'				quantidade < 80;
+
+					SELECT * FROM tb_produtos WHERE marca_id AND nome LIKE '%cal%';
+
+					LIKE com % % serve para pesquisarmos por palavras
+
+
+
+• Deletar registros da tabela		DELETE FROM tb_nomeTabela WHERE condição;
+
+					Exemplo:
+
+					DELETE FROM tb_produtos WHERE id = 2;
+
+
+
+• Alterar dado da tabela		ALTER TABLE tb_nomeTabela MODIFY campo dado;
+
+					Exemplo: 
+
+					ALTER TABLE tb_produtos MODIFY preco DECIMAL(6,2);
+
+
+
+• Adicionar nova coluna à tabela	ALTER TABLE tb_nomeTabela ADD campo dado;
+
+					Exemplo:
+
+					ALTER TABLE tb_produtos ADD descricao VARCHAR(255);
+
+
+
+• Excluir coluna da tabela		ALTER TABLE tb_nomeTabela DROP COLUMN nomeCampo;
+
+					Exemplo:
+		
+					ALTER TABLE tb_produtos DROP COLUMN descricao;			
+
+
+• Trava de segurança do SQL		SET SQL_SAFE_UPDATES = 0;
+
+					0 = Desligado
+					1 = Ligado
+
+					Recurso do MySQL para proteção dos dados e do banco
+					para possiveis erros do comando UPTADE sem o uso do
+					WHERE
+
+
+• Atualizar registro da tabela		UPDATE tb_nomeTabela SET campo WHERE condição;
+
+					Exemplo:
+
+					UPDATE tb_produtos SET preco = 5.99 WHERE id = 4;
+
+
+
+
