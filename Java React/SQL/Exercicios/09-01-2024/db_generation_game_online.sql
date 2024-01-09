@@ -46,11 +46,11 @@ SELECT nome, poder FROM tb_personagens WHERE poder > 2000;
 SELECT nome, poder FROM tb_personagens WHERE poder > 1000 AND poder < 2000;
 SELECT nome, poder FROM tb_personagens WHERE nome LIKE "%C%";
 
-SELECT nome, raca, classe_id, tb_classes.classe, tb_classes.arma, nivel, poder 
+SELECT id, nome, raca, classe_id, tb_classes.classe, tb_classes.arma, nivel, poder 
 FROM tb_personagens INNER JOIN tb_classes 
 ON classe_id = tb_classes.id;
 
-SELECT nome, raca, classe_id, tb_classes.classe, tb_classes.arma, nivel, poder 
+SELECT id, nome, raca, classe_id, tb_classes.classe, tb_classes.arma, nivel, poder 
 FROM tb_personagens INNER JOIN tb_classes 
 ON classe_id = tb_classes.id
 WHERE tb_classes.id = 2;
