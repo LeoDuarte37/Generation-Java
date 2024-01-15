@@ -4,10 +4,13 @@ import java.time.LocalDateTime;
 
 import org.hibernate.annotations.UpdateTimestamp;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
@@ -20,9 +23,19 @@ public class Postagem {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	@NotBlank(message = "O atributo título é obrigatório!")
+	@NotBlank(message = "O atributo título é obrigatório!")		
 	@Size(min = 5, max = 100, message = "O atributo título deve conter no mínimo 5 e no máximo 100 caracteres")
 	private String titulo;
+	
+	/*
+	   NotBlank testa se o campo é nulo ou vazio.
+	   NotNull teste se o campo é nulo.
+	   
+	   NotBlank é recomendado para String, pois
+	   pode ter String vazia.
+	   
+	   NotNull é recomendado para tipos primitivos.
+	*/
 	
 	@NotBlank(message = "O atributo texto é obrigatório!")
 	@Size(min = 10, max = 1000, message = "O atributo texto deve conter no mínimo 10 e no máximo 1000 caracteres")
@@ -30,6 +43,10 @@ public class Postagem {
 	
 	@UpdateTimestamp
 	private LocalDateTime date;
+	
+	@ManyToOne
+	@JsonIgnoreProperties("postagem") 
+	private Tema tema;
 
 	// Getters and Setters
 	public long getId() {
@@ -63,6 +80,16 @@ public class Postagem {
 	public void setDate(LocalDateTime date) {
 		this.date = date;
 	}
+
+	public Tema getTema() {
+		return tema;
+	}
+
+	public void setTema(Tema tema) {
+		this.tema = tema;
+	}
+	
+	
 	
 	
 }
