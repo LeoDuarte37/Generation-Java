@@ -32,14 +32,14 @@ INSERT INTO tb_categorias (categoria, descricao) VALUES
 
 INSERT INTO tb_produtos (nome, descricao, preco, data_validade, categoria_id) VALUES
 ("Salmão", "Peixe da família Salmonidae", 47, "2024-04-08", 3),
-("Contra filé", "", 18, "2024-08-19", 1),
-("", "", 9, "2026-08-02", 3),
+("Contra filé", "Parte traseira do boi", 18, "2024-08-19", 1),
+("Mignon", "Parte traseira do porco", 50, "2026-08-02", 2),
 ("Bacalhau", "Peixe da família Gadidae", 82.5, "2024-10-15", 3),
-("", "r", 8, "2025-02-10", 2),
-("", "", 14, "2024-11-05", 2),
-("", "", 10, "2026-05-20", 5),
-("", "", 10, "2025-08-30", 1),
-("", "", 70, "2026-05-20", 5);
+("Costela", "Parte inferior do porco", 45, "2025-02-10", 2),
+("Chuleta", "Carne macia; parte superior da rês", 22, "2024-11-05", 1),
+("Frango", "Frango assado", 36, "2026-05-20", 4),
+("Peito de frango", "Peito de frango assado", 15, "2025-08-30", 4),
+("Fraldinha", "Entre a parte traseira e a costela do boi", 30, "2026-05-20", 1);
 
 SELECT nome, tb_produtos.descricao, preco, data_validade, tb_categorias.categoria
 FROM tb_produtos INNER JOIN tb_categorias 
@@ -49,7 +49,7 @@ WHERE preco > 50;
 SELECT nome, tb_produtos.descricao, preco, data_validade, tb_categorias.categoria
 FROM tb_produtos INNER JOIN tb_categorias 
 ON categoria_id = tb_categorias.id
-WHERE preco > 5 AND preco < 60;
+WHERE preco > 50 AND preco < 150;
 
 SELECT nome, tb_produtos.descricao, preco, data_validade, tb_categorias.categoria
 FROM tb_produtos INNER JOIN tb_categorias 
